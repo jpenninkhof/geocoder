@@ -1,0 +1,23 @@
+{
+    "name": "geocoder",
+    "version": "1.0.0",
+    "description": "Geocoder, reading a CSV file and exporting the same file including longitude and latitude",
+    "main": "geocoder.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jpenninkhof/geocoder.git"
+    },
+    "keywords": [
+        "geocoder",
+        "geocoding"
+    ],
+    "author": "jpenninkhof",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jpenninkhof/geocoder/issues"
+    },
+    "dependencies": {
+		"node-geocoder": "^3.8.0",
+		"csv": "^0.4.6"
+    }
+}

@@ -12,7 +12,9 @@ The output csv will contain the same 2 fields, but an additional pair of fields 
 
 ## Usage
 
-node geocoder.js < input.csv > output.csv
+`node geocoder.js < input.csv > output.csv`
+
+A sample input.csv is provided
 
 ## Installation
 

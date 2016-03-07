@@ -17,7 +17,11 @@ node geocoder.js < input.csv > output.csv
 ## Installation
 
 install node.js from https://nodejs.org/
-git clone https://github.com/jpenninkhof/geocoder.git
-cd geocoder
-npm install
+
+`git clone https://github.com/jpenninkhof/geocoder.git`
+
+`cd geocoder`
+
+`npm install`
+
 replace the API key with an actual API key in geocoder.js

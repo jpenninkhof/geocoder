@@ -20,6 +20,8 @@ A sample input.csv is provided
 
 install node.js from https://nodejs.org/
 
+install a git client from e.g. https://git-scm.com/downloads
+
 `git clone https://github.com/jpenninkhof/geocoder.git`
 
 `cd geocoder`

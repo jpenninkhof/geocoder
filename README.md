@@ -7,8 +7,21 @@ The geocoder will take a CSV file from standard in and will assume it contains 2
 
 The output csv will contain the same 2 fields, but an additional pair of fields will be added, containing Latutude and Longitude according to Google.
 
-3. Longitude
-4. Latutude
+3. Formatted Address
+4. Longitude
+5. Latitude
+6. Google Place Id
+7. Confidence
+8. Street Name
+9. Street Number
+10. City
+11. Country
+12. Country Code
+13. ZIP code
+14. Administrative Levels 1, long
+15. Administrative Levels 1, short
+16. Administrative Levels 2, short
+17. Administrative Levels 2, short
 
 ## Installation
 

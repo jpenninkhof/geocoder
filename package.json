@@ -18,6 +18,6 @@
     },
     "dependencies": {
 		"node-geocoder": "^3.8.0",
-		"csv": "^0.4.6"
+		"csv": "^0.4.6",
     }
 }

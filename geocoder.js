@@ -9,11 +9,11 @@ process.stdin
 			geocoder.geocode(data[1])
 		    .then(function(res) {
 				if (res.length === 0) {
+					data.push(0);
+					data.push(0);
+				} else {
 					data.push(res[0].latitude);
 					data.push(res[0].longitude);
-				} else {
-					data.push(0);
-					data.push(0);
 				}
 				callback(null, data);
 		    })

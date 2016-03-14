@@ -22,6 +22,12 @@ The output csv will contain the same 2 fields, but an additional pair of fields 
 15. Administrative Levels 1, short
 16. Administrative Levels 2, short
 17. Administrative Levels 2, short
+18. Administrative Levels 3, short
+19. Administrative Levels 3, short
+20. Administrative Levels 4, short
+21. Administrative Levels 4, short
+22. Administrative Levels 5, short
+23. Administrative Levels 5, short
 
 ## Installation
 

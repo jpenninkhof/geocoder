@@ -10,15 +10,11 @@ The output csv will contain the same 2 fields, but an additional pair of fields 
 3. Longitude
 4. Latutude
 
-## Usage
-
-`node geocoder.js < input.csv > output.csv`
-
-A sample input.csv is provided
-
 ## Installation
 
 install node.js from https://nodejs.org/
+
+install a git client from e.g. https://git-scm.com/downloads
 
 `git clone https://github.com/jpenninkhof/geocoder.git`
 
@@ -27,3 +23,9 @@ install node.js from https://nodejs.org/
 `npm install`
 
 replace the API key with an actual API key in geocoder.js
+
+## Usage
+
+`node geocoder.js < input.csv > output.csv`
+
+A sample input.csv is provided

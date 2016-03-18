@@ -1,4 +1,4 @@
-var apiKey = "AIzaSyAj9GGrBLnNPImKnl7MKAuD737t1MHnMT8";
+var apiKey = "APIKEY";
 var geocoder = require('node-geocoder') ("google", "https", { apiKey: apiKey });
 var csv = require('csv');
 

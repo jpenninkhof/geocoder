@@ -1,4 +1,4 @@
-var apiKey = "APIKEY";
+var apiKey = "AIzaSyAj9GGrBLnNPImKnl7MKAuD737t1MHnMT8";
 var geocoder = require('node-geocoder') ("google", "https", { apiKey: apiKey });
 var csv = require('csv');
 
@@ -32,7 +32,8 @@ process.stdin
 					callback(null, data);
 			    })
 			    .catch(function(err) {
-			        console.log(data[0] + " " + err);
+			        data.push("ERROR: " + err.message);
+					callback(null, data);
 			    });
 			});
 		}, {parallel: 5}))
